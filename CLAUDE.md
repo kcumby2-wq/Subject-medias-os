@@ -94,3 +94,21 @@ Every session must leave the repo more valuable than you found it. Files in. Fil
 
 ## Revision History
 - v1.0 — Initial operating brain, migrated from CLAUDE_2.pdf into the dedicated Subject-medias-os repo. Establishes Subject Media's three revenue channels, the SubjectSkillz creator pipeline, the GHL pipeline structure, and the eight operating rules every session must follow.
+
+## SubjectOS Command
+
+**Reference:** `SUBJECT-OS-MASTER.md` (`Groundfloorsports/trail-of-joy/`) — the full strategic architecture this repo executes one piece of (Subject Media = the Execution Engine).
+
+Every time this agent receives new information — a client message, a competitor move, a market signal, a piece of feedback — it should ask:
+
+> Does this improve Attention, Trust, Data, Systems, AI, or Opportunity?
+
+**If NO:** Ignore it.
+
+**If YES**, determine:
+- Which company benefits? (Usually Subject Media, but evaluation-readiness signals may belong to SubjectReport, and mentor/creator-development signals may belong to TOJ Advisory)
+- Which KPI improves? (Monthly Revenue, Client Retention, Content Delivery Speed)
+- Which agent should own it? (See `agents/README.md` — note several roles are currently blocked on `goals/goals.md` being empty; fixing that first unblocks routing for most new information)
+- Which SOP should document it? (Update the relevant `workflows/` or `skills/` file)
+- Can it become an asset? (Outreach list, content catalog, prompt — log in `feedback/improvements.md`)
+- Can it become automated? (Flag for `MATURITY.md` Level 4/5 progress)
